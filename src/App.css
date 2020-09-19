@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(236, 232, 227) ;
+}
+.main-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+
+}
+.logo img{
+  width: 650px;
+
+}
+
+.main-title{
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(41, 28, 26);
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-align: center;
+  margin: 40px;
+}
+.main-text{
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(87, 66, 62);
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+.main-box{
+  background-color: rgb(236, 232, 227);
+  width: 100%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  float: left;
+
+}
+.social {
+  position: absolute;
+  bottom: 15%;
+  right: 21%;
+}
+.social i {
+  color: rgb(87, 66, 62);
+  margin: 20px;
+}
+.cm{
+margin: 85px;
+}
+.learn-btn {
+  background: #ffffff;
+border-radius: 0px;
+padding:14px 30px;
+display:inline-block;
+border: none;
+border-radius: 5px;
+font-weight: 400;
+}
+.learn-btn:hover{
+  background-color: #d3c0c0;
+}
+.main-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 22%;
+  right: 18%;
+}
+.footer{
+  width:100%;
+  position:fixed;
+  bottom:-120px;
+  background-color: #111;
+  border-top: rgb(218, 215, 212);;
+  height:155px;
+  font-family: 'Montserrat', sans-serif;
+  transition:all 0.2s ease;
+  padding-left:20px;
+  text-align: center;
+
+}
+.footer-text{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+font-weight: 300;
+margin: 10px;
+  color: rgb(218, 215, 212);
+  letter-spacing: 1px;
+
+ 
+}
+.notify-case{
+  background-color: rgb(236, 232, 227);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+    position: relative;
+    margin-top: 0;
+}
+.notify-text{
+  color: rgb(33, 28, 27);
+  font-family: 'Josefin Sans', sans-serif;
+text-align: center;
+position: absolute;
+bottom: 80%;
+right: 33%;
+
+
+}
+.notify{
+  display: flex;
+  justify-content: space-around;
+}
+.sign-text{
+  color:rgb(33, 28, 27);
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+position: absolute;
+font-size: 18px;
+bottom: 72%;
+right: 40%;
+
+}
+@media all and (max-width: 500px){
+  .main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    height: auto; 
+    overflow: hidden;
+  }
+  .main-page{
+    width: 100%;
+    margin: 0;
+  }
+  .cm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 1000px){
+.main-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+    margin: 0;
+}
+input{
+  margin: 20px 0;
+}
+.notify{
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+  justify-content: space-around;
+}
+}
+input{
+  outline: none;
+  border-radius: 6px;
+  border:1px solid #ccc;
+  position: absolute;
+  bottom: 64%;
+  right: 41%;
+  width: 400px;
+  padding: 10px;
+  font-size: 18px;
+  outline:none;
+  background: linear-gradient(to left top, #000, #2e261e) fixed;
+  border: 2px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.8);
+  transition: all 0.5s;
+}
+input:hover{
+  border: 2px solid rgba(255,255,255,0.5);
+}
+input:focus{
+  border: 2px solid rgba(255,255,255,0.5);
+  background: linear-gradient(to left top, #000, #332c24) fixed;
+}
+.notify-btn{
+  position: absolute;
+  bottom: 63%;
+  right: 29%;
+  
+}
+.notify-box i{
+  color: rgb(41, 28, 26);
+  position: absolute;
+  right: 14%;
+  bottom: 92%;
+}
+.fb:hover{
+  color: rgb(31, 33, 54);
+}
+.ig:hover{
+  color: rgb(169, 154, 127);
+}
+.button {
+  user-select: none;
+  display: inline-block;
+  border: 0.2em solid;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.6;
+  color: rgb(33, 28, 27);
+}
+.button__text {
+  display: block;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.button__text:before {
+  content: attr(title);
+}
+.button__text--bis {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateX(-1em);
+  opacity: 0;
+}
+.button__mask {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  transform: translateX(-100%) rotate(45deg);
+  transition: all 0.3s;
+}
+.button:hover {
+  opacity: 1;
+}
+.button:hover .button__text {
+  animation: fx-text 0.3s ease-out;
+}
+.button:hover .button__text--bis {
+  animation: fx-text-bis 0.3s ease-out;
+}
+.button:hover .button__mask {
+  animation: fx-mask 0.3s ease-out;
+}
+.button:active {
+  opacity: 1;
+  background: rgb(33, 28, 27);
+  color: inherit;
+}
+@keyframes fx-mask {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+ }
+  100% {
+    transform: translateX(100%) rotate(45deg);
+ }
+}
+@keyframes fx-text {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+ }
+  100% {
+    transform: translateX(1em);
+    opacity: 0;
+ }
+}
+@keyframes fx-text-bis {
+  0% {
+    transform: translateX(-1em);
+    opacity: 0;
+ }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+ }
+}
+.cm{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
