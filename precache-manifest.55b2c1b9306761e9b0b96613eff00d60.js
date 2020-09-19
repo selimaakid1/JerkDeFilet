@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b61ace3b9800f5b977d25811d553a92a",
+    "revision": "d2dabd536cfa0776f45b1379da129514",
     "url": "/JerkDeFilet/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JerkDeFilet/static/css/2.d34346ea.chunk.css"
   },
   {
-    "revision": "e538a204b089f6449355",
+    "revision": "bac38176218e5460f70a",
     "url": "/JerkDeFilet/static/css/main.50574367.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JerkDeFilet/static/js/2.c88382cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e538a204b089f6449355",
-    "url": "/JerkDeFilet/static/js/main.e31f8234.chunk.js"
+    "revision": "bac38176218e5460f70a",
+    "url": "/JerkDeFilet/static/js/main.6da94c86.chunk.js"
   },
   {
     "revision": "9b40d38ea572f96af902",
