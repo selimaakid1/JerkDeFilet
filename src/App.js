@@ -14,8 +14,8 @@ class App extends Component {
 
       <BrowserRouter>
         <div className="App">
+        <Route exact path='/' component={Main} />
           <Switch>
-            <Route exact path='/' component={Main} />
             <Route exact path='/more' component={Notify} />
           </Switch>
           <Footer />
